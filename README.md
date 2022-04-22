@@ -5,6 +5,10 @@ This is a modified version of **[NH Context](https://forum.cfx.re/t/no-longer-su
 
 Original made by QBCore, edited by FjamZoo#0001 and Renewed scripts https://discord.gg/NukW4RTF
 
+### Screenshot of the Edited Menu
+![Example Menu](https://i.gyazo.com/7b314c414f0fcb4e5c4005888a6ac08f.png)
+#
+
 --[[
 EXAMPLE MENU
 --]]
