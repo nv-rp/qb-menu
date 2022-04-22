@@ -1,7 +1,9 @@
 # qb-menu
-Menu System for the QBCore Framework
+Menu System for the QBCore Framework, Edited to look like NoPixel with Fontawesome icons supported
 
 This is a modified version of **[NH Context](https://forum.cfx.re/t/no-longer-supported-standalone-nerohiro-s-context-menu-dynamic-event-firing-menu/2564083)** by **[NeroHiro](https://github.com/nerohiro)**
+
+Original made by QBCore, edited by FjamZoo#0001 and Renewed scripts https://discord.gg/NukW4RTF
 
 --[[
 EXAMPLE MENU
@@ -13,6 +15,7 @@ RegisterCommand("qbmenutest", function(source, args, raw)
         {
             header = "Main Title",
             isMenuHeader = true, -- Set to true to make a nonclickable title
+            icon = "fas fa-gas-pump", -- Set this to any fontawesome icon!
         },
         {
             header = "Sub Menu Button",
