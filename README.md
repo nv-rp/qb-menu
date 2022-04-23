@@ -3,7 +3,9 @@ Menu System for the QBCore Framework, Edited to look like NoPixel with Fontaweso
 
 This is a modified version of **[NH Context](https://forum.cfx.re/t/no-longer-supported-standalone-nerohiro-s-context-menu-dynamic-event-firing-menu/2564083)** by **[NeroHiro](https://github.com/nerohiro)**
 
-Original made by QBCore, edited by FjamZoo#0001 and Renewed scripts https://discord.gg/NukW4RTF
+Original made by QBCore, edited by FjamZoo#0001 and Jerzy#9709 
+
+For more releases join Renewed scripts https://discord.gg/NukW4RTF
 
 ### Screenshot of the Edited Menu
 ![Example Menu](https://i.gyazo.com/7b314c414f0fcb4e5c4005888a6ac08f.png)
