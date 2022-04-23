@@ -8,7 +8,7 @@ Original made by QBCore, edited by FjamZoo#0001 and Jerzy#9709
 For more releases join Renewed scripts https://discord.gg/NukW4RTF
 
 ### Screenshot of the Edited Menu
-![Example Menu](https://i.gyazo.com/7b314c414f0fcb4e5c4005888a6ac08f.png)
+![Example Menu](https://cdn.discordapp.com/attachments/967059921642328084/967067484643545098/unknown.png)
 #
 
 --[[
