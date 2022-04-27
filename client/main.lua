@@ -8,8 +8,12 @@ local function openMenu(data)
     if not data or not next(data) then return end
 	for k,v in pairs(data) do 
 		if v["icon"] then
-			if QBCore.Shared.Items[tostring(v["icon"])] then 
-				v["icon"] = "qb-inventory/html/images/"..QBCore.Shared.Items[tostring(v["icon"])].image
+			local img = "lj-inventory/html/"
+			if QBCore.Shared.Items[tostring(v["icon"])] then
+				if not string.find(QBCore.Shared.Items[tostring(v["icon"])].image, "images/") then 
+					img = img.."images/"
+				end
+				v["icon"] = img..QBCore.Shared.Items[tostring(v["icon"])].image
 			end
 		end
 	end
