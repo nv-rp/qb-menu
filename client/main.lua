@@ -1,10 +1,18 @@
+local QBCore = exports['qb-core']:GetCoreObject()
+
 local headerShown = false
 local sendData = nil
 
 -- Functions
-
 local function openMenu(data)
     if not data or not next(data) then return end
+	for k,v in pairs(data) do 
+		if v["icon"] then
+			if QBCore.Shared.Items[tostring(v["icon"])] then 
+				v["icon"] = "qb-inventory/html/images/"..QBCore.Shared.Items[tostring(v["icon"])].image
+			end
+		end
+	end
     SetNuiFocus(true, true)
     headerShown = false
     sendData = data
