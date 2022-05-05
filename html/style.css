@@ -114,8 +114,8 @@ body::-webkit-scrollbar { display: none; }
 	overflow: hidden;
 	padding: 0.35rem;
 	border-radius: 10px;
-	display: flex;
 	flex-direction: column;
+	border-left: 0px;
 	box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
 }
 
