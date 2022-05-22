@@ -28,7 +28,7 @@
 
 #buttons {
 	max-height: 80vh;
-	width: 25vw;
+	width: 200%;
 	overflow-x: none;
 	overflow-y: auto;
 	padding: 10px;
@@ -58,20 +58,25 @@ body::-webkit-scrollbar { display: none; }
 	box-shadow: 0rem 0rem 0.1rem 0.05rem #000000;
 	cursor: pointer;
 	border-left: 8px solid rgba(23, 23, 23, 1%);
-	transition-property: color, background-color;
+	transition-property: color, background-color, border-left;
 	transition-duration: 0.1s, 0.3s;
 	transition-timing-function: linear, ease-in;
 }
 
 
 .button:hover {
-	border-left: 8px solid #dc143c;
+	border-left: 8px solid red;
 	background: rgba(0, 0, 0);
 	color: white;
 }
 
+.icon > img {
+	width: 2.2vh !important; 
+}
+
 .icon {
-	transition-property: all;
+	font-size: 1.2vh;
+	transition-property: all, filter;
 	transition-duration: 0.1s, 0.3s;
 	transition-timing-function: linear, ease-in;
     display: inline-flex;
@@ -84,6 +89,7 @@ body::-webkit-scrollbar { display: none; }
 .button:hover > .icon {
 	opacity: 1.0;
 	animation: bounce 2s linear;
+	filter: drop-shadow(-1px -1px 15px white);
 }
 
 .bounce {
@@ -102,12 +108,13 @@ body::-webkit-scrollbar { display: none; }
 .title {
 	font-family: "Poppins", sans-serif !important;
 	width: auto;
-	max-width: 45%;
+	max-width: 46%;
 	height: 10%;
 	background: rgba(23, 23, 23);
 	border-left: 8px solid rgba(23, 23, 23, 1%);
 	color: white;
 	margin: auto;
+	margin-left: -0.5;
 	position: relative;
 	top: 10%;
 	margin-top: 0.2rem;
@@ -132,7 +139,7 @@ body::-webkit-scrollbar { display: none; }
 div > .text {
 	font-family: "Poppins", sans-serif !important;
 	flex-direction: column;
-	font-size: 0.65rem;
+	font-size: 1.0vh;
 	overflow: hidden;
 }
 div > .header {
@@ -145,7 +152,7 @@ div > .header {
 	justify-content: left;
 	overflow: wrap;
 	color: white;
-	font-size: 0.85rem;
+	font-size: 1.2vh;
 	font-weight: 400;
 	overflow: hidden;
 }
